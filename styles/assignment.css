@@ -137,7 +137,12 @@ nav {
 
 /* Review */
 .review {
-  padding: 120px 150px;
+  margin: 50px 150px;
+  padding: 30px 0;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  
 }
 
 .reviewHeading{
@@ -161,7 +166,7 @@ nav {
 .mainsection {
   display: flex;
   justify-content: center; 
-  gap: 30px; 
+  gap: 80px; 
   flex-wrap: wrap; 
 }
 .reviewText{
@@ -216,9 +221,11 @@ nav {
 }
 
 .extra img {
-  border-radius: 20px; 
+  width: 60%; 
   max-width: 100%;
   height: auto;
+  border-radius: 12px; 
+  margin-top: 20px;
 }
 
 
@@ -285,7 +292,7 @@ nav {
 .footer {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f9f9f9; 
+  background-color: #e9dddd; 
   margin-top: 50px;
 }
 .footer-bar {
